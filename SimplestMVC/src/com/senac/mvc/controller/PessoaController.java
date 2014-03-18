@@ -12,19 +12,20 @@ public class PessoaController {
 	public void criarContato()
 	{
 		
-	    int i,nrAleatorioVogal,nrAleatorioConsoante;
+	    int i, nomeAleatorio,sobrenomeAleatorio;
             
-	    String vogal [] = {" Aaron"," GianCarlo"," Anna"," Jonathan"," Betsy"," R.J"," Vince", "Dean", "Bob"},vc = "" ,nome = "",consoante [] 
-	    		={"Odenkirk ","Brandt ","Paul ", "Gunn", "Esposito", "Banks", "Mitte","Gilighan","Norris"};
+	    String nome [] = {" Aaron"," GianCarlo"," Anna"," Jonathan"," Betsy"," R.J"," Vince", "Dean", "Bob"},
+	    	   sobrenome []	={"Odenkirk ","Brandt ","Paul ", "Gunn", "Esposito", "Banks", "Mitte","Gilighan","Norris"},
+	    	   nomecompleto = "";
+   		       
             
 	    Random random = new Random();
             
-        nrAleatorioVogal = 0 + random.nextInt(9);
-        nrAleatorioConsoante = 0 + random.nextInt(9);
-        vc = vogal[nrAleatorioVogal] + " " + consoante[nrAleatorioConsoante];
-        nome = vc;
-		contato = new Pessoa();
-		contato.setNome(vc);
+        nomeAleatorio = 0 + random.nextInt(9);
+        sobrenomeAleatorio = 0 + random.nextInt(9);
+        nomecompleto = nome[nomeAleatorio] + " " + sobrenome[sobrenomeAleatorio];
+        contato = new Pessoa();
+		contato.setNome(nomecompleto);
 		contato.setTelefone("555-1234");
 		contato.setEndereco("rua teste");
  
