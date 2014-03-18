@@ -10,7 +10,9 @@ public class AgendaTelefonica {
 		for(int i = 0; i <= 50; i++){
         
 			PessoaController controller = new PessoaController();
-			controller.criarContato();			
+			controller.criarContato();
+			controller.criarEndereco();
+			controller.criarTelefone();
 			controller.exibirContato(new ExtendedView());
      	}
     }
