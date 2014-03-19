@@ -33,39 +33,39 @@ public class PessoaController {
 	public void criarEndereco()
 	{
 			
-		int i, nomeRua, segundoNomeRua, nomeTipoEndereco, tipoEnd;
+		int nomeRua, segundoNomeRua, tipoEnd;
 
-		String rua[] = { "Visconde", "General", "Comendador", "Lima"}, vc = "", nome = "", nomeRuaDois[] = {
-				"Silva", "Soares", "Escobar", "Vargas" }, tipoEndereco[] = {"Rua", "Avenida", "Travessa", "Praça"};
+		String rua[] = { "João", "André", "Otto", "Andrade", "Wenceslau", "Padre", "Luciana"}, 
+		       nomeRuaDois[] = { "Pessoa", "da Rocha", "Niemeyer", "Neves", "Escobar", "Cacique", "de Abreu" },
+		       tipoEndereco[] = {"Rua", "Avenida", "Praça", "Largo"},
+		       nomecompleto;
 
 		Random random = new Random();
 
-		for (i = 0; i <= 0; i++) {
+    	nomeRua = 0 + random.nextInt(7);
 
-			nomeRua = 0 + random.nextInt(4);
+		segundoNomeRua = 0 + random.nextInt(7);
 
-			segundoNomeRua = 0 + random.nextInt(4);
+	    int x = random.nextInt(1000);
+		String parteNumeroUm = Integer.toString(x); 
 
-			int x = random.nextInt(1000);
-			String parteNumeroUm = Integer.toString(x); 
+		tipoEnd = 0 + random.nextInt(4);
 
-			tipoEnd = 0 + random.nextInt(4);
+		nomecompleto = tipoEndereco[tipoEnd] + " " + rua[nomeRua] + " " +
+		     nomeRuaDois[segundoNomeRua] + " " + parteNumeroUm;
 
-			vc = tipoEndereco[tipoEnd] + " " + rua[nomeRua] + " "
-					+ nomeRuaDois[segundoNomeRua] + " " + parteNumeroUm;
-
-			nome = vc;
-           contato.setEndereco(nome); 
-	    }  
-    }
+		contato.setEndereco(nomecompleto); 
+     }
 	
 	public void criarTelefone()
 	{
 		Random random = new Random();
-		int x = random.nextInt(1000);
+		int z = random.nextInt(99);
+		int x = random.nextInt(10000);
 		int y = random.nextInt(10000);
 		int tipoTelefoneN;
 
+		String ddd = Integer.toString(z);
 		String parteNumeroUm = Integer.toString(x);  
 		String parteNumeroDois = Integer.toString(y);
 
@@ -74,7 +74,7 @@ public class PessoaController {
 
 		String tipo[] = { "Celular", "Residencial", "Comercial", "Fax"};
 
-		String numeroFinal = " " + tipo[tipoTelefoneN] + ": " + parteNumeroUm + "-" + parteNumeroDois;
+		String numeroFinal = tipo[tipoTelefoneN] + ": " + "(" + ddd + ")" + parteNumeroUm + "-" + parteNumeroDois;
 
 		contato.setTelefone(numeroFinal);
 		
