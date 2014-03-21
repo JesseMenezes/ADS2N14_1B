@@ -66,6 +66,9 @@ public class PessoaController {
 		int tipoTelefoneN;
 
 		String ddd = Integer.toString(z);
+		if (ddd.length() < 2){
+			ddd = "0" + ddd;
+		}
 		String parteNumeroUm = Integer.toString(x);  
 		String parteNumeroDois = Integer.toString(y);
 

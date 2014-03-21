@@ -68,16 +68,23 @@ public class JogoView {
 	public static Jogador getGanhador() {
 
 		Jogador ganhador = controller.getJogo().getJogador(0);
-       
+        int Empate = 0;       
 		for (int i = 1 ; i < numJogadores; i++) {
 
 			if (controller.getPontosJogador(i) > controller.getPontosJogador(i - 1)) {
 				ganhador = controller.getJogo().getJogador(i);
 			}
-			
-			
+			for (int x = 2 ; x <(numJogadores); x=x+i) {
+		    	if (controller.getPontosJogador(i) == controller.getPontosJogador(x)) {
+			    	Empate = Empate + 1; 
+			    }		
+			}
 		}
-
+		Empate = Empate - 1;
+		if (Empate > 0){
+	    	out.println("Alguns jogadores terminaram com o mesmo número de pontos!! ");	
+	    }
+		
 		return ganhador;
 	}
 
