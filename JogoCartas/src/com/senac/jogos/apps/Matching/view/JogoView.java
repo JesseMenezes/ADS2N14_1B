@@ -129,7 +129,7 @@ public class JogoView {
 		Jogador ganhador = getGanhador();
 		imprimirLinha();
 		out.println("O " + ganhador.getNome() + " Venceu !!!!");
-		// continuarJogando();
+		continuarJogando();
 
 	}
 
