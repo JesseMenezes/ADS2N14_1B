@@ -46,17 +46,40 @@ public class view {
 			op=0;
 			break;
 		case 3:
-			
-			
+			System.out.println("Numero da conta: ");
+			nconta = teclado.nextInt();
+			System.out.println("valor: ");
+			rs = teclado.nextDouble();
+			controll.saque(nconta, rs);
+			op = 0;
+
+			break;
+		case 4:
+			System.out.println("Numero da conta: ");
+			nconta = teclado.nextInt();
+			System.out.println("valor da taxa: ");
+			rs = teclado.nextDouble();
+			controll.investimento(nconta, rs);
+			op = 0;
+			break;
+		case 5:
+			System.out.println("Numero da conta: ");
+			nconta = teclado.nextInt();
+
+			op = 0;
+			break;
+		case 6:
+			System.out.println("VOCÊ ESCOLHEU A OPÇÃO SAIDA ");
+
+			op = 1;
 			break;
 		default:
-			
+			System.err.println("DIGITO INVALIDO DIGITE NOVAMENTE");
+			op = 0;
 			break;
-         }
-		
-        
-         
 		}
+       boolean controle = false;
+       }
 	}
 
 }
