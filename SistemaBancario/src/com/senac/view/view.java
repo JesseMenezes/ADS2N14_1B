@@ -12,7 +12,7 @@ public class view {
 		int Tconta;
 		
 		int op=0;
-		System.out.println("RBS - ROYAL BANK OF SCOTLAND");
+		System.out.println("Bank of Boston");
 		while (op<1) {
 			
 		
@@ -65,21 +65,18 @@ public class view {
 		case 5:
 			System.out.println("Numero da conta: ");
 			nconta = teclado.nextInt();
-
+			controll.csaldo(nconta);
 			op = 0;
 			break;
 		case 6:
-			System.out.println("VOCÊ ESCOLHEU A OPÇÃO SAIDA ");
-
 			op = 1;
 			break;
 		default:
-			System.err.println("DIGITO INVALIDO DIGITE NOVAMENTE");
+			System.err.println("DIGITO INVÁLIDO");
 			op = 0;
 			break;
 		}
-       boolean controle = false;
-       }
+		}
 	}
 
 }
