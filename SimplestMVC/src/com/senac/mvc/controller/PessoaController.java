@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class PessoaController {
 
-	Pessoa contato = new Pessoa();	
+	private Pessoa contato = new Pessoa();	
 		
 	
 	public void criarContato()
@@ -88,5 +88,13 @@ public class PessoaController {
 	{
 		view.printContato(contato.getNome(), contato.getTelefone(), contato.getEndereco());
 	}
+
+	public Pessoa getContato() {
+		
+		return contato;
+	}
+
+	
+	
 	
 }

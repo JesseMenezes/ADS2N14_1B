@@ -1,0 +1,150 @@
+1 Anna Banks
+Celular: (75)619-9529
+Rua Andrade da Rocha 415
+2 R.J Odenkirk 
+Comercial: (64)4484-2823
+Praça Luciana Pessoa 916
+3 Vince Norris
+Celular: (49)4651-4314
+Praça João Escobar 208
+4 Anna Esposito
+Fax: (76)1361-4998
+Largo Luciana Neves 442
+5 R.J Esposito
+Residencial: (42)6090-5047
+Praça André Cacique 988
+6 Anna Paul 
+Fax: (11)1853-2389
+Avenida Andrade de Abreu 352
+7 Vince Odenkirk 
+Comercial: (19)7698-3074
+Praça Luciana Neves 238
+8 Jonathan Brandt 
+Celular: (43)5883-9153
+Largo Andrade Cacique 573
+9 Betsy Norris
+Comercial: (47)1823-5818
+Largo João Pessoa 481
+10 Anna Gilighan
+Comercial: (82)2419-1670
+Rua Wenceslau da Rocha 582
+11 R.J Banks
+Celular: (72)8813-649
+Praça Luciana Pessoa 997
+12 R.J Banks
+Celular: (50)1660-4042
+Rua Otto Neves 407
+13Dean Odenkirk 
+Celular: (69)2485-7769
+Praça Wenceslau Pessoa 502
+14 Jonathan Norris
+Celular: (29)5973-9136
+Praça Otto da Rocha 867
+15 R.J Esposito
+Celular: (64)6460-4704
+Rua Otto da Rocha 766
+16Dean Mitte
+Comercial: (29)7115-8202
+Praça Luciana Niemeyer 61
+17 Aaron Gunn
+Comercial: (93)5856-3115
+Praça André Neves 278
+18Bob Paul 
+Fax: (54)4474-1418
+Avenida Luciana Cacique 862
+19Dean Gilighan
+Celular: (55)5431-5428
+Praça João Escobar 902
+20 R.J Gilighan
+Celular: (56)7887-9504
+Praça João Escobar 813
+21Bob Esposito
+Comercial: (22)5882-3727
+Praça Wenceslau Neves 581
+22 Betsy Banks
+Comercial: (05)6509-4573
+Rua Andrade de Abreu 986
+23 R.J Norris
+Fax: (43)7743-6763
+Praça André Escobar 57
+24Dean Norris
+Residencial: (87)1801-1974
+Praça João da Rocha 966
+25 Betsy Odenkirk 
+Residencial: (89)1444-8110
+Largo Wenceslau Neves 450
+26 Betsy Esposito
+Residencial: (20)1484-8590
+Praça Padre Escobar 693
+27Bob Esposito
+Fax: (73)760-7191
+Rua Luciana Neves 47
+28 Aaron Mitte
+Residencial: (78)8980-2479
+Avenida Otto da Rocha 574
+29Dean Gunn
+Comercial: (29)1112-8807
+Praça André Escobar 325
+30 Jonathan Mitte
+Comercial: (86)4016-6426
+Rua André da Rocha 8
+31 Aaron Gilighan
+Celular: (00)1863-3116
+Rua Padre da Rocha 12
+32 Anna Gunn
+Comercial: (61)8559-5101
+Praça André Cacique 927
+33 Betsy Esposito
+Comercial: (01)1564-8825
+Rua Andrade Neves 771
+34 Aaron Gunn
+Fax: (29)1999-3273
+Largo Padre Neves 388
+35Bob Gunn
+Residencial: (41)7936-1830
+Praça Padre Escobar 482
+36 Aaron Norris
+Fax: (93)3673-160
+Largo João Escobar 572
+37 R.J Brandt 
+Residencial: (72)7425-2633
+Largo Luciana Neves 956
+38 Vince Gilighan
+Comercial: (50)9262-8348
+Avenida André Pessoa 103
+39 GianCarlo Mitte
+Celular: (17)988-6094
+Avenida João Niemeyer 762
+40 R.J Esposito
+Comercial: (75)2013-453
+Rua Luciana Niemeyer 730
+41 Betsy Odenkirk 
+Celular: (18)3482-1218
+Avenida Wenceslau Pessoa 249
+42 Aaron Brandt 
+Comercial: (86)4859-2803
+Avenida Luciana Niemeyer 971
+43 Vince Norris
+Residencial: (91)4111-6196
+Largo Otto Neves 597
+44Dean Norris
+Residencial: (87)2102-4760
+Largo Andrade de Abreu 55
+45 Anna Gilighan
+Celular: (79)1643-3386
+Avenida João Escobar 846
+46 Betsy Norris
+Residencial: (39)8119-8734
+Praça Otto de Abreu 401
+47 Aaron Gilighan
+Celular: (97)2728-9958
+Rua Luciana da Rocha 324
+48 GianCarlo Mitte
+Comercial: (54)1610-7316
+Largo Wenceslau de Abreu 659
+49Dean Esposito
+Celular: (70)1375-3652
+Largo Luciana Cacique 148
+50Bob Odenkirk 
+Celular: (32)5905-952
+Rua André Niemeyer 173
