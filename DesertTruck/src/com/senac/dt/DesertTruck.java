@@ -3,8 +3,15 @@ package com.senac.dt;
 public class DesertTruck {
 
 	public String avancar(String string) {
-		// TODO Auto-generated method stub
-		return null;
+		return string;
+	}
+
+	public Object voltar(String comand) {
+		return comand;
+	}
+
+	public Object carregar(String comand) {
+		return comand;
 	}
 
 	
