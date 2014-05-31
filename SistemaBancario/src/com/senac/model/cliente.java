@@ -20,11 +20,11 @@ public class cliente {
 		this.nome = nome;
 	}
 
-	public int gettConta() {
+	public int getConta() {
 		return tConta;
 	}
 
-	public void settConta(int tConta) {
+	public void setConta(int tConta) {
 		this.tConta = tConta;
 	}
 

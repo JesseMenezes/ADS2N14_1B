@@ -10,17 +10,18 @@ import com.senac.model.Conta;
 import com.senac.model.cliente;
 
 public class controllerTest {
+	
 	controller control;
-	Conta cont;
+	Conta cont[] = new Conta[3];
 	cliente cli;
 	@Test
 	public void testcriarconta() {
 	//testa se a conta foi criada com sucesso
 	//testa entrada do nome e tipo de conta do cliente
 		control = new controller();
+		
 		//testa conta comun
 		control.criarConta("joao", 1);
-		//assertEquals("joao", cont[1].getCliente().getNome());
 		//testa conta especial
 		control.criarConta("joao", 2);
 		//testa conta investimento
@@ -29,19 +30,21 @@ public class controllerTest {
 		control.criarConta("joao", 5);
 	}
 	
+	
+
 	public void testrealizadeposito(){
 	//testa se o deposito foi realizado com sucesso
 		control = new controller();
-		cont = new Conta();
+		//cont = new Conta();
 		//testa deposito em conta comun
 		control.deposito(1, 1);
-		cont.Depositar(1);
+		//cont.Depositar(1);
 		//testa deposito em conta especial
 		control.deposito(2, 1);
-		cont.Depositar(1);
+		//cont.Depositar(1);
 		//testa deposito em conta investimento
 		control.deposito(3, 1);
-		cont.Depositar(1);
+		//cont.Depositar(1);
 		//testa deposito em conta invalida
 		control.deposito(4, 1);
 				

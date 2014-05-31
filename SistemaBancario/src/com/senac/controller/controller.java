@@ -13,7 +13,7 @@ public class controller {
 	    nc2 = 0,
         nc3 = 0,
 	    nc  = 1,
-	    conf;
+	    Agree;
 	boolean Realizado = false;
 
 	public void criarConta(String texto, int valor) {
@@ -72,8 +72,8 @@ public class controller {
 				System.out.println("Conta : " + Tpconta[i].getCliente().getNome());
 				System.out.println("Confirma Operação?");
 				System.out.println("\n1 - sim\n2 - não");
-				conf = teclado.nextInt();
-				if (conf == 1) {
+				Agree = teclado.nextInt();
+				if (Agree == 1) {
 					Tpconta[i].Depositar(vdeposito);
 					Realizado = true;
 				} else
@@ -85,8 +85,8 @@ public class controller {
 				System.out.println("Você deseja depositar:R$ " + vdeposito);
 				System.out.println(" Na conta de: " + TpEspecial[i].getCliente().getNome());
 				System.out.println( "\n1 - sim\n2 - não");
-				conf = teclado.nextInt();
-				if (conf == 1) {
+				Agree = teclado.nextInt();
+				if (Agree == 1) {
 					TpEspecial[i].Depositar(vdeposito);
 					Realizado = true;
 				} else
@@ -99,8 +99,8 @@ public class controller {
 				System.out.println("Você deseja depositar:R$ " + vdeposito);
 				System.out.println(" Na conta de: " + TpInvestimento[i].getCliente().getNome());
 				System.out.println("\n1 - sim\n2 - não");
-				conf = teclado.nextInt();
-				if (conf == 1) {
+				Agree = teclado.nextInt();
+				if (Agree == 1) {
 					TpInvestimento[i].Depositar(vdeposito);
 					Realizado = true;
 				} else
@@ -122,8 +122,8 @@ public class controller {
 			   	System.out.println("Você deseja sacar :R$ " + vsaque);
 			   	System.out.println(" Na conta de: " + Tpconta[i].getCliente().getNome());
 			   	System.out.println("\n1 - sim\n2 - não");
-				conf = teclado.nextInt();
-				if (conf == 1) {
+				Agree = teclado.nextInt();
+				if (Agree == 1) {
 					Tpconta[i].Saque(vsaque);
 					Realizado = true;
 				} else
@@ -135,8 +135,8 @@ public class controller {
 				System.out.println("Você deseja sacar:R$ " + vsaque);
 				System.out.println(" Na conta de: " + TpEspecial[i].getCliente().getNome());
 				System.out.println("\n1 - sim\n2 - não");
-				conf = teclado.nextInt();
-				if (conf == 1) {
+				Agree = teclado.nextInt();
+				if (Agree == 1) {
 					TpEspecial[i].Saque(vsaque);
 					Realizado = true;
 				} else
@@ -149,8 +149,8 @@ public class controller {
 				System.out.println("Você deseja sacar:R$ " + vsaque);
 				System.out.println(" da conta de: " + TpInvestimento[i].getCliente().getNome());
 				System.out.println("\n1 - sim\n2 - não");
-				conf = teclado.nextInt();
-				if (conf == 1) {
+				Agree = teclado.nextInt();
+				if (Agree == 1) {
 					TpInvestimento[i].Saque(vsaque);
 					Realizado = true;
 				} else
@@ -172,8 +172,8 @@ public class controller {
 				System.out.println("Você deseja fazer o investimento com a taxa: " + taxa);
 				System.out.println(" Na conta de: " + TpInvestimento[i].getCliente().getNome());
 				System.out.println("\n1 - sim\n2 - não");
-				conf = teclado.nextInt();
-				if (conf == 1) {
+				Agree = teclado.nextInt();
+				if (Agree == 1) {
 					TpInvestimento[i].dividendos(taxa);
 					System.out.println("Investimento realizado com sucesso");
 
